@@ -1,0 +1,144 @@
+/***************************
+**    Default Styles      **
+***************************/
+
+/***************************
+**        Header          **
+***************************/
+
+/***************************
+**          Nav           **
+***************************/
+
+/***************************
+**       Main Area        **
+***************************/
+
+.main-area {
+	font-size: 24px;
+	text-align: center;
+}
+
+.main-area img {
+	max-width: 65vw;
+	height: auto;
+}
+
+.main-area .core {
+	width: 65%;
+	margin: auto;
+}
+
+/* Style the portfolio links */
+
+.portLinks {
+	text-decoration: none;
+	color: black;
+}
+
+.portLinks:hover {
+	text-decoration: underline;
+	background-color:rgb(128, 196, 252);
+}
+
+
+/* Style the tab */
+.tab {
+	overflow: hidden;
+	border: 3px solid #ccc;
+	background-color: #f1f1f1;	
+	margin-top: 1em;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+	background-color: inherit;
+	float: left;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	padding: 14px 16px;
+	margin: auto;
+	transition: 0.3s;
+	font-weight: bold;
+	box-shadow: inset 1px 2px #6bb6e7;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+	background-image: linear-gradient(240deg, #FFF 5%, #6bb6e7 70%);
+  }
+  
+  /* Create an active/active tablink class */
+  .tab button.active {
+	background-image: linear-gradient(240deg, #FFF 20%, #2376ae 70%);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+	display: none;
+	background-color: rgb(255,255,255,0.3);
+	padding: 6px 12px;
+	border: 3px solid #ccc;
+	border-top: none;
+  }
+
+/***************************
+**         Footer         **
+***************************/
+
+@media only screen and (max-width: 1200px) {
+	
+	/***************************
+	**        Header          **
+	***************************/
+	
+	/***************************
+	**          Nav           **
+	***************************/
+	
+	/***************************
+	**         Main           **
+	***************************/
+
+	.tab button {
+		width: 50%;
+		box-shadow: inset 1px 2px #6bb6e7;
+	}
+
+	/***************************
+	**        Footer          **
+	***************************/
+}
+
+@media only screen and (max-width: 600px) {
+	
+	/***************************
+	**        General         **
+	***************************/
+
+	/***************************
+	**        Header          **
+	***************************/
+	
+	/***************************
+	**          Nav           **
+	***************************/
+	
+	/***************************
+	**         Main           **
+	***************************/
+	
+	.main-area h1 {
+		font-size: 38px;
+	}
+
+	.tab button {
+		width: 100%;
+		box-shadow: inset 1px 2px #6bb6e7;
+	}
+	
+	/***************************
+	**        Footer          **
+	***************************/
+
+}
